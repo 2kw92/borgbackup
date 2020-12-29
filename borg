@@ -1,0 +1,7 @@
+/var/log/borg/* {
+daily
+size 10k
+rotate 3
+compress
+delaycompress
+}
