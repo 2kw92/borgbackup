@@ -34,7 +34,8 @@ crontab -e
 ```       
 
 Теперь чтобы проверить работоспособность, удалим файл /etc/hostname и восстановим его командой:       
-```borg extract borg@192.168.11.101:/var/backup::Mybackup-2020-12-29_16:12 etc/hostname
+```
+borg extract borg@192.168.11.101:/var/backup::Mybackup-2020-12-29_16:12 etc/hostname
 Enter passphrase for key ssh://borg@192.168.11.101/var/backup:
 ```
 
