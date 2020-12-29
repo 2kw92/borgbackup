@@ -2,7 +2,8 @@
 Дз по теме бэкапирование
 
 В рамках дз были развернуты 2 сервера. backupserver и client.       
-На оба серера была установлена утилита borg.
+На оба серера была установлена утилита borg.      
+
 ```wget https://github.com/borgbackup/borg/releases/download/1.1.6/borg-linux64 -O /usr/local/bin/borg```       
 На серваке бэкапов был создан юзер borg:       
 ```useradd -m borg```      
